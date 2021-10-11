@@ -93,7 +93,7 @@ export default function Portfolio() {
               <a href="http://www.goal.com">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </a>
-              <a href="" class="buton">
+              <a href="http://www.goal.com" class="buton">
                 Live Demo
               </a>
             </div>
