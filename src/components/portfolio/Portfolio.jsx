@@ -3,10 +3,12 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import {
   featuredPortfolio,
-  webPortfolio,
+  mernPortfolio,
+  djangoPortfolio,
   mobilePortfolio,
-  designPortfolio,
-  contentPortfolio,
+  frontendPortfolio,
+  uiuxPortfolio,
+  apiPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
@@ -30,7 +32,7 @@ export default function Portfolio() {
       title: "Mobile App",
     },
     {
-      id: "design",
+      id: "frontend",
       title: "Front-End(React)",
     },
     {
@@ -48,17 +50,23 @@ export default function Portfolio() {
       case "featured":
         setData(featuredPortfolio);
         break;
-      case "web":
-        setData(webPortfolio);
+      case "mern":
+        setData(mernPortfolio);
+        break;
+      case "django":
+        setData(djangoPortfolio);
         break;
       case "mobile":
         setData(mobilePortfolio);
         break;
-      case "design":
-        setData(designPortfolio);
+      case "frontend":
+        setData(frontendPortfolio);
         break;
-      case "content":
-        setData(contentPortfolio);
+      case "uiux":
+        setData(uiuxPortfolio);
+        break;
+      case "api":
+        setData(apiPortfolio);
         break;
       default:
         setData(featuredPortfolio);
@@ -81,19 +89,19 @@ export default function Portfolio() {
       <div className="container">
         {data.map((d) => (
           <div className="item">
-            <a href="http://www.goal.com">
-              <img src="images/6.jpg" alt="" />
+            <a href={d.link}>
+              <img src={d.img} alt={d.title} />
             </a>
             <div className="detail">
-              <a href="http://www.goal.com">
-                <h3>React</h3>
+              <a href={d.link}>
+                <h3>{d.title}</h3>
               </a>
             </div>
             <div className="details">
-              <a href="http://www.goal.com">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <a href={d.link}>
+                <p>{d.desc}</p>
               </a>
-              <a href="http://www.goal.com" class="buton">
+              <a href={d.link} class="buton">
                 Live Demo
               </a>
             </div>

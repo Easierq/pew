@@ -1,13 +1,13 @@
 import "./testimonials.scss";
-import { Code, Android, WebAsset } from "@material-ui/icons";
+import { Computer, Android, Storage } from "@material-ui/icons";
 
 export default function Testimonials() {
   return (
-    <div className="testimonials" id="testimonials">
+    <div className="testimonials" id="services">
       <h1>Services</h1>
       <div className="container">
         <div className="card">
-          <Code className="icon" />
+          <Computer className="icon" />
           <h4>Front-End</h4>
           <p>
             Building of front-end projects using technologies like Angular,
@@ -16,7 +16,7 @@ export default function Testimonials() {
           </p>
         </div>
         <div className="card">
-          <WebAsset className="icon" />
+          <Storage className="icon" />
           <h4>Back-End</h4>
           <p>
             Building of back-end projects using technologies like Node, Python,
@@ -25,7 +25,7 @@ export default function Testimonials() {
         </div>
         <div className="card">
           <Android className="icon" />
-          <h4>Mobile App / (UI/UX)</h4>
+          <h4>Mobile App/(UI/UX)</h4>
           <p>
             Full-stack development and design of Mobile Apps using React native,
             AWS services, Firebase, Figma, Adobe XD.....
