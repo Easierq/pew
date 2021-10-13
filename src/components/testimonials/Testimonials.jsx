@@ -11,8 +11,8 @@ export default function Testimonials() {
           <h4>Front-End</h4>
           <p>
             Building of front-end projects using technologies like Angular,
-            React, Javascript, Typescript, Css, Sass, Tailwind css, Material UI,
-            Bootstrap, Redux.....
+            React, Javascript, Typescript, Css, Sass, Tailwind css, Bootstrap,
+            Redux.....
           </p>
         </div>
         <div className="card">

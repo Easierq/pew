@@ -38,7 +38,9 @@ export default function Intro() {
           <a href="#portfolio">
             Explore My Portfolio <ChevronRight className="ii" />
           </a>
-          <a href="#contacts">Contact Me</a>
+          <a href="https://api.whatsapp.com/send?phone=23407018943550">
+            Contact Me
+          </a>
         </div>
       </div>
     </div>

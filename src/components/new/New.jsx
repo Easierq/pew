@@ -39,7 +39,7 @@ const New = () => {
           <h2>Contact via Email</h2>
 
           <form ref={form} onSubmit={sendEmail}>
-            <input type="text" placeholder="Enter Email" name="email" />
+            <input type="email" placeholder="Enter Email" name="email" />
             <textarea placeholder="Message" name="message"></textarea>
             <div class="btn-box">
               <button class="common-btn">Send Message</button>

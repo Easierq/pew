@@ -25,7 +25,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
         <div className="right">
           <div className="itemContainer">
             <a
-              href="https://api.whatsapp.com/send?phone=23407065866656"
+              href="https://api.whatsapp.com/send?phone=23407018943550"
               className="logo"
             >
               <WhatsApp className="icon" />

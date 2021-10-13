@@ -11,11 +11,20 @@
   z-index: 5;
   transition: all 1s ease;
 
+  @include kekere {
+    background-color: white;
+  }
+
   .wrapper {
     padding: 10px 30px;
     display: flex;
+    height: 100%;
     align-items: center;
     justify-content: space-between;
+
+    @include kekere {
+      padding: 10px 15px;
+    }
 
     .left {
       display: flex;
@@ -28,6 +37,11 @@
         color: inherit;
         margin-right: 30px;
         letter-spacing: 5px;
+
+        @include kekere {
+          font-size: 30px;
+          font-weight: 700;
+        }
 
         span {
           color: white;
@@ -87,9 +101,10 @@
             font-size: 24px;
             margin-right: 3px;
 
-            @include medium {
-              font-size: 20px;
+            @include kekere {
+              font-size: 18px;
               margin-right: 1px;
+              padding-bottom: 3px;
             }
           }
 
@@ -100,7 +115,7 @@
             font-weight: 700;
 
             @include medium {
-              font-size: 18px;
+              font-size: 16px;
               font-weight: 700;
             }
           }
@@ -114,6 +129,11 @@
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
+
+        @include kekere {
+          width: 30px;
+          height: 24px;
+        }
 
         span {
           width: 100%;

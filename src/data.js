@@ -1,4 +1,12 @@
-export const featuredPortfolio = [];
+export const featuredPortfolio = [
+  {
+    id: 1,
+    title: "Social Media App",
+    img: "images/1.jpg",
+    link: "http://www.goal.com",
+    desc: "why mw always balotelli abi na ki lawa she",
+  },
+];
 
 export const mernPortfolio = [];
 
