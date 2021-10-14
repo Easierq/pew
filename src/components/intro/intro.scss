@@ -10,14 +10,6 @@
     height: 700px;
     padding: 0 2%;
   }
-  // @include kekere {
-  //   height: 600px;
-  //   padding: 0 2%;
-  //   background: url("../../pexels-pixabay-270557.jpg");
-  //   background-size: cover;
-  //   background-position: center;
-  //   background-repeat: no-repeat;
-  // }
 
   .back-video {
     position: absolute;
@@ -108,6 +100,10 @@
       span {
         font-size: inherit;
         color: aqua;
+
+        @include kekere {
+          color: $mainColor;
+        }
       }
 
       .ityped-cursor {
